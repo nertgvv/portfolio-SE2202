@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="../css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#work">Work Experience</a>
+        <a href="#contact">Contact Me</a>
+    </div>
+
+    <div class="hero-image" id="home">
+        <div class="hero-text">
+          <h1>Hello! My name is Nick Zhang.</h1>
+          <p>I'm a software engineering/business student, and I love skiing with my friends.</p>
+          <p>Even though I'm not an experienced programmer, I'm looking to learn and expand my skills!</p>
+          <button onclick='alert("Email me at yzha5247@uwo.ca, or head to the contact me section!")'>Contact me!</button>
+        </div>
+    </div>
+
+    <div class="about-section" id="about">
+        <h1>About Me</h1>
+        <p>I'm passionate about a whole variety of things!</p>
+    </div>
+
+    <h2 style="text-align:center">My Interests</h2>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="charger.jpg" style="width:100%">
+          <div class="container">
+            <h2>Cars</h2>
+            <p class="title">PICTURED: 1969 Dodge Charger.</p>
+            <p>Cars has always been a huge interest of mine. I can't get over how amazing the development
+                of this technology has been in the past 100 years, and I look forward to where it goes in the future!
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="column">
+        <div class="card">
+          <img src="friends2.jpg" style="width:100%">
+          <div class="container">
+            <h2>Friends</h2>
+            <p class="title">PICTURED: My friends and I acting ridiculous.</p>
+            <p>I never fail to have fun with my friends, whether we're simply out on
+                a drive or going on large trips to skiing, or even Mexico!
+            </p>
+            <br>
+            <br>
+          </div>
+        </div>
+      </div>
+    
+      <div class="column">
+        <div class="card">
+          <img src="pc2.jpg" style="width:100%">
+          <div class="container">
+            <h2>Technology</h2>
+            <p class="title">PICTURED: A custom PC.</p>
+            <p>Tech has always had my attention, whether it's building custom PC's, writing scripts,
+                or simply keeping up with the latest trends.
+            </p>
+            <br>
+            <br>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="jobs.jpg" style="width:100%">
+          <div class="container">
+            <h2>Business</h2>
+            <p class="title">PICTURED: Steve Jobs presenting.</p>
+            <p>Business, especially in the tech space, is an aspect that I always dive deep into.
+                The way products are designed and get revealed are amazing to me, and I always look forward to the next big thing.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="work-experience" id="work">
+        <h1>Work Experience</h1>
+        <p>Having worked at a variety of Marketing and Growth-based positions, I'm familiar with common marketing practices,
+            effective communication tactics, and overall business acumen. I've completed various markeinting reports, as well
+            as developed campaigns on different platforms with different audiences. I'm looking for a position that allows me to 
+            combine both my marketing background with my passion for programming!
+        </p>
+        <p>My detailed resume can be found below.</p>
+    </div>
+
+    <object data="resume2.pdf" type="application/pdf" width="100%" height="800px">
+      <p>Unable to display PDF file. <a href="resume2.pdf">Download</a> instead.</p>
+    </object>
+
+    <div class="contact-me" id="contact">
+        <h1>Contact me!</h1>
+        <label for="fname">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Name">
+        <p> </p>
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="What's up?">
+        <p> </p>
+        <button onclick='alert("Thank you for contacting me! (This button does not actually work.)")'>Send message!</button>
+    </div>
+
+    <div class="footer">
+        <p> You can find my <a href="https://www.instagram.com/z.niick/" style="color: cyan">Instagram</a> and <a href="https://www.linkedin.com/in/nick-zhang-222241257/" style="color:cyan">LinkedIn</a> here.</p>
+        <p>Nick Zhang's Porfolio. This marks the end of the page - first site created by Nick Zhang. ©2023 Nick Zhang.</p>
+    </div>
+
+</body>
+</html>
